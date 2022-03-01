@@ -70,7 +70,7 @@ function Main(){
                         <div key={index} className="article">
                             <div className="padd-article">
                                 <div className="news-img">
-                                    <img alt='img' src={articles.urlToImage}/>
+                                    <img alt="img" src={articles.urlToImage}/>
                                 </div>
                                 <div className="news-detail">
                                     <h2>{articles.title}</h2>
